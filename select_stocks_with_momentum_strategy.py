@@ -40,4 +40,4 @@ print(prices)
 
 prices[prices['liquid_1000'] == 1].to_csv(r'C:\Users\nikap\Documents\Snpectinatus\Seasonality results\prices_liquid.csv')
 print(prices[prices['liquid_1000'] == 1])
-print(prices[prices['liquid_1000']['symbol'].unique()])
+print((prices[prices['liquid_1000']== 1])['symbol'].unique())
